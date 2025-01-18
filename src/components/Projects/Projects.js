@@ -5,9 +5,9 @@ import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import portfolio from "../../Assets/Projects/portfolio.jpg";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import orgnization from "../../Assets/Projects/orgnization.jpg";
 
 function Projects() {
   return (
@@ -23,27 +23,28 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={portfolio}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Portfolio"
+              description="A personal chat application or workspace designed for sharing resources and connecting with friends, developed using React.js and Bootstrap. It provides real-time messaging, image sharing, and reaction support for messages. Deployed on Vercel for fast and efficient performance, the application offers a modern and seamless user experience, ensuring smooth interaction and accessibility across devices.
+              This version highlights the technology stack, deployment platform, and user experience while keeping the description professional and engaging."
+              ghLink="https://github.com/Khajornsak2002/Portfolio_C_V2"
+              demoLink="https://portfolio-c-v2-nu.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={orgnization}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Organization KUSRC"
+              description="KUSRC stands for Kasetsart University Student Representative Council, representing the student body of Kasetsart University. The council is dedicated to enhancing the student experience through advocacy, events, and initiatives that promote academic excellence, community engagement, and student well-being."
+              ghLink="https://github.com/Khajornsak2002/new-org-ku-src-v1"
+              demoLink="https://org-kusrc.vercel.app/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
               isBlog={false}
@@ -52,9 +53,9 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Editor.io"
               demoLink="https://editor.soumya-jit.tech/"              
             />
-          </Col>
+          </Col> */}
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
@@ -86,7 +87,7 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
